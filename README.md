@@ -141,7 +141,7 @@ Step 9: Select the hex file from the Kiel program folder and import the program 
 
 
 ## Kiel - Program:
-
+```
 #include <lpc21xx.h> 
 #define RS (1<<0)
 #define RW (1<<1)
@@ -284,7 +284,7 @@ void LCD_init()
   delay_ms(10) ;//set cursor to 0th location 1st lne
 }
 
-
+```
 
 ## Output screen shots :
 ![5a](https://user-images.githubusercontent.com/94222288/200382283-0187947c-a828-4b63-86fa-d7c4d7afef1d.jpg)
